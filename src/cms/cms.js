@@ -4,6 +4,10 @@ import AboutPagePreview from './preview-templates/AboutPagePreview'
 import BlogPostPreview from './preview-templates/BlogPostPreview'
 import ProductPagePreview from './preview-templates/ProductPagePreview'
 
+import { SlidesControl, SlidesPreview } from "./widgets/Slides";
+
+CMS.registerWidget("slides", SlidesControl, SlidesPreview);
+
 CMS.registerPreviewStyle('/styles.css')
 CMS.registerPreviewTemplate('about', AboutPagePreview)
 CMS.registerPreviewTemplate('products', ProductPagePreview)
