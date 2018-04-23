@@ -97,6 +97,5 @@ pricing:
         - Unlimited varieties
       plan: Customs
       price: 1Million dolarz
-    - {}
 ---
 
